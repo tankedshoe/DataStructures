@@ -16,14 +16,12 @@ void Controller :: start()
     Timer codeTimer;
     codeTimer.startTimer();
     cout << "Print to the screen some text" << endl;
-    codeTimer.stopTimer();
-    codeTimer.displayInformation();
     
-    codeTimer.resetTimer();
-    codeTimer.startTimer();
-    for (int index=0; index< 10000000; index++)
+    
+    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/dhea8398/Documents/datasucksures/DataStructures/DataStructures/Data/crime.csv");
+    for (int loop=0; loop <30; loop++)
     {
-        cout << "The index is " << index << "\t";
+        cout << "Spot #" << loop << ": " << myData[loop] << endl;
     }
     codeTimer.stopTimer();
     codeTimer.displayInformation();

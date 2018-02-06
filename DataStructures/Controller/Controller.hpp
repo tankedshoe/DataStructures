@@ -12,8 +12,13 @@
 #include "Tools/Timer.hpp"
 #include "FileController.hpp"
 
+#include "../Model/Structures/Array.hpp"
+#include "../Testers/ArrayTester.hpp"
+
 #include <vector>
 #include <iostream>
+
+using namespace std;
 
 class Controller
 {

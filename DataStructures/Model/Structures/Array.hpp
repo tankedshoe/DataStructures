@@ -10,8 +10,9 @@
 #define Array_hpp
 #include <assert.h>
 #include <iostream>
-#include <stdio.h>
+
 using namespace std;
+
 
 template <class Type>
 class Array
@@ -33,6 +34,7 @@ public:
     int getSize() const;
     Type getFromIndex(int index);
     Type setAtIndex(int index, Type data);
+};
     
     template <class Type>
     Array<Type> :: Array(int size)
@@ -41,7 +43,7 @@ public:
         this->size = size;
         internalArray = new Type[size];
         
-    }
+    };
     
     template <class Type>
     Array<Type> :: Array(const Array <Type> & toCopy)
@@ -75,22 +77,23 @@ public:
             
         }
         return *this;
+    }
         
         template <class Type>
         Type & Array<Type> :: operator [] (int index)
         {
-            asser(index >= 0 && index < size);
+            assert(index >= 0 && index < size);
             return internalArray[index];
         }
         template <class Type>
         Type Array <Type> :: operator [] (int index) const
         {
-            asser(index >= 0 && index < size);
+            assert(index >= 0 && index < size);
             return internalArray[index];
         }
         
         template <class Type>
-        int Array<Type> :: getSize90 const
+        int Array<Type> :: getSize() const
         {
             return size;
         }
@@ -106,7 +109,7 @@ public:
         void Array<Type> :: setAtIndex(int pos, Type item)
         {
             assert(pos >= 0 && pos <size);
-            internalArray [pos] = item;
+            internalArray[pos] = item;
         }
-    }
+
 #endif /* Array_hpp */

@@ -66,7 +66,7 @@ public:
         if(&toAssign != this)
         {
             delete [] internalArray;
-            size = toAssign.getSize90;
+            size = toAssign.getSize();
             internalArray = new Type [size];
         }
         for (int index = 0; index < size; index++)

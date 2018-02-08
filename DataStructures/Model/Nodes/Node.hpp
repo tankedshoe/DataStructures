@@ -44,4 +44,6 @@ Type Node<Type> :: getData()
 {
     return data;
 }
+
+}
 #endif /* Node_hpp */

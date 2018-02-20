@@ -47,7 +47,7 @@ LinkedList<Type> :: LinkedList()
     this->front = nullptr;
     this->end = nullptr;
     this->size = 0;
-}
+};
 
 template <class type>
 LinkedList<Type> :: ~LinkedList()
@@ -58,6 +58,25 @@ LinkedList<Type> :: ~LinkedList()
         front = destroyStructure->getNextNode();
         delete destroyStructure;
         destroyStructure = front
-}
+    }
+};
+
+void LinkedList<Type> :: add(Type item)
+{
+    LinearNode<Type> * newData = new LinearNode<Type>(item);
+    
+    if (this->size == 0)
+    {
+        this->front = newData;
+    }
+    else
+    {
+        this->end->setNextNode(newData);
+    }
+    
+    this->end = newData;
+    
+    this->size += 1;
+};
 
 #endif /* LinkedList_hpp */

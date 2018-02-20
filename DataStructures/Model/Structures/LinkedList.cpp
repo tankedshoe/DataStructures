@@ -12,3 +12,6 @@ using namespace std; //Used for keyword access. Use this to make sure your point
 
 #ifndef LinkedList_hpp
 #define LinkedList_hpp
+
+template <class Type>
+class LinkedList: public List<Type>

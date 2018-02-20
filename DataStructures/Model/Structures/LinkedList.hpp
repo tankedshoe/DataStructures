@@ -49,4 +49,15 @@ LinkedList<Type> :: LinkedList()
     this->size = 0;
 }
 
+template <class type>
+LinkedList<Type> :: ~LinkedList()
+{
+    LinearNode<Type> * destroyStructure = front;
+    while (front != nullptr)
+    {
+        front = destroyStructure->getNextNode();
+        delete destroyStructure;
+        destroyStructure = front
+}
+
 #endif /* LinkedList_hpp */

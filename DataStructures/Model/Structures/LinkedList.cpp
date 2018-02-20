@@ -38,4 +38,12 @@ public:
     Type remove(int index);
 //    Type setAtIndex(int index, Type item);
 //    bool contains(Type item);
+};
+
+template <class Type>
+LinkedList<Type> :: LinkedList()
+{
+    this->front = nullptr;
+    this->end = nullptr;
+    this->size = 0;
 }

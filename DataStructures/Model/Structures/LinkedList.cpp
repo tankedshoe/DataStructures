@@ -15,3 +15,8 @@ using namespace std; //Used for keyword access. Use this to make sure your point
 
 template <class Type>
 class LinkedList: public List<Type>
+{
+protected:
+    LinearNode<Type> * front;
+    LinearNode<Type> * end;
+}

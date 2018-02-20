@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77308012203C728800A9CC25 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77308010203C728800A9CC25 /* LinkedList.cpp */; };
 		7763282620220C9100D4A788 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282420220C9100D4A788 /* Controller.cpp */; };
 		7763282920220CA800D4A788 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282720220CA800D4A788 /* FileController.cpp */; };
 		7763282C20220CD300D4A788 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282B20220CD300D4A788 /* Runner.cpp */; };
@@ -30,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		7730800E203C6F9E00A9CC25 /* AbstractBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractBase.hpp; sourceTree = "<group>"; };
+		77308010203C728800A9CC25 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		77308011203C728800A9CC25 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		7763281920220C5700D4A788 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		7763282420220C9100D4A788 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		7763282520220C9100D4A788 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 			children = (
 				77E2CB1C2029F80A000CDC74 /* Array.hpp */,
 				7730800E203C6F9E00A9CC25 /* AbstractBase.hpp */,
+				77308010203C728800A9CC25 /* LinkedList.cpp */,
+				77308011203C728800A9CC25 /* LinkedList.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			files = (
 				7763282C20220CD300D4A788 /* Runner.cpp in Sources */,
 				776328372022233500D4A788 /* CrimeData.cpp in Sources */,
+				77308012203C728800A9CC25 /* LinkedList.cpp in Sources */,
 				7763282620220C9100D4A788 /* Controller.cpp in Sources */,
 				7763282920220CA800D4A788 /* FileController.cpp in Sources */,
 				77E2CB21202A0023000CDC74 /* ArrayTester.cpp in Sources */,

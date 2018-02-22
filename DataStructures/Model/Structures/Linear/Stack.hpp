@@ -14,7 +14,20 @@
 template <class Type>
 class Stack : public LinkedList<Type>
 {
+public:
+    Stack();
+    ~Stack();
     
+    //Stack specific methods
+    void push(Type data);
+    Type pop();
+    Type peek();
+    
+    //Overridden LinkedList methods
+    void add(Type data);
+    void addAtIndex(int index, Type data);
+    Type getFromIndex(int index);
+    Type remove(int index);
 };
 
 #endif /* Stack_hpp */

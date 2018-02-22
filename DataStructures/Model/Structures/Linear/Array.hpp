@@ -33,7 +33,7 @@ public:
     
     int getSize() const;
     Type getFromIndex(int index);
-    Type setAtIndex(int index, Type data);
+    void setAtIndex(int index, Type data);
 };
     
     template <class Type>

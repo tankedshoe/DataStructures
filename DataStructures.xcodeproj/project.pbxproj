@@ -13,7 +13,6 @@
 		7763282F20220FA800D4A788 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282D20220FA800D4A788 /* Timer.cpp */; };
 		776328372022233500D4A788 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 776328362022233500D4A788 /* CrimeData.cpp */; };
 		77764F17203F1DA00043F183 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77764F15203F1DA00043F183 /* LinkedListTester.cpp */; };
-		77846023202CB2ED00FB61FC /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77846021202CB2ED00FB61FC /* LinearNode.cpp */; };
 		77E2CB21202A0023000CDC74 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77E2CB1F202A0023000CDC74 /* ArrayTester.cpp */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		776328362022233500D4A788 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		77764F15203F1DA00043F183 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
 		77764F16203F1DA00043F183 /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
-		77846021202CB2ED00FB61FC /* LinearNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearNode.cpp; sourceTree = "<group>"; };
 		77846022202CB2ED00FB61FC /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		77E2CB1C2029F80A000CDC74 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		77E2CB1F202A0023000CDC74 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				77E2CB24202A10E3000CDC74 /* Node.hpp */,
-				77846021202CB2ED00FB61FC /* LinearNode.cpp */,
 				77846022202CB2ED00FB61FC /* LinearNode.hpp */,
 			);
 			path = Nodes;
@@ -234,7 +231,6 @@
 				7763282920220CA800D4A788 /* FileController.cpp in Sources */,
 				77E2CB21202A0023000CDC74 /* ArrayTester.cpp in Sources */,
 				7763282F20220FA800D4A788 /* Timer.cpp in Sources */,
-				77846023202CB2ED00FB61FC /* LinearNode.cpp in Sources */,
 				77764F17203F1DA00043F183 /* LinkedListTester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -76,4 +76,26 @@ void Stack<Type> :: addAtIndex(int index, Type data)
     push(data);
 }
 
+template <class Type>
+Type Stack<Type> :: pop()
+{
+    assert (this->size > 0);
+    Type removed = this->front->getData();
+    
+    LinearNode<Type> * removedNode = this->getFront();
+    this->front = removedNode->getNextNode();
+    delete removedNode;
+    
+    this->size--;
+    
+    return removed;
+}
+
+template <class Type>
+Type Stack<Type> :: remove(int index)
+{
+    assert(index == 0);
+    return pop();
+}
+
 #endif /* Stack_hpp */

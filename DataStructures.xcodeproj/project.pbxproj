@@ -44,6 +44,10 @@
 		776328362022233500D4A788 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		77764F15203F1DA00043F183 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
 		77764F16203F1DA00043F183 /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
+		77764F19203F27EF0043F183 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		77764F1C203F28060043F183 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		77764F1F203F281E0043F183 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
+		77764F23203F28520043F183 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		77846022202CB2ED00FB61FC /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		77E2CB1C2029F80A000CDC74 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		77E2CB1F202A0023000CDC74 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
@@ -125,10 +129,20 @@
 			isa = PBXGroup;
 			children = (
 				77E2CB1C2029F80A000CDC74 /* Array.hpp */,
-				7730800E203C6F9E00A9CC25 /* List.hpp */,
 				77308011203C728800A9CC25 /* LinkedList.hpp */,
+				7730800E203C6F9E00A9CC25 /* List.hpp */,
+				77764F19203F27EF0043F183 /* Queue.hpp */,
+				77764F1C203F28060043F183 /* Stack.hpp */,
+				77764F1F203F281E0043F183 /* CircularList.hpp */,
 			);
 			path = Linear;
+			sourceTree = "<group>";
+		};
+		77764F21203F282F0043F183 /* NonLinear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NonLinear;
 			sourceTree = "<group>";
 		};
 		77E2CB192029F78E000CDC74 /* Model */ = {
@@ -144,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				77764F14203F13FE0043F183 /* Linear */,
+				77764F21203F282F0043F183 /* NonLinear */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -164,6 +179,7 @@
 			children = (
 				77E2CB24202A10E3000CDC74 /* Node.hpp */,
 				77846022202CB2ED00FB61FC /* LinearNode.hpp */,
+				77764F23203F28520043F183 /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";

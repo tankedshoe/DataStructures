@@ -1,19 +1,19 @@
 //
-//  AbstractBase.hpp
+//  List.hpp
 //  DataStructures
 //
 //  Created by Heaps, Dane on 2/20/18.
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
-#ifndef AbstractBase_hpp
-#define AbstractBase_hpp
+#ifndef List_hpp
+#define List_hpp
 
 #include <assert.h>
 #include "../../Nodes/LinearNode.hpp"
 
-template <class type>
-class AbstractBase
+template <class Type>
+class List
 {
 protected:
     int size;
@@ -30,4 +30,4 @@ public:
     virtual LinearNode<Type> * getEnd() = 0;
 };
 
-#endif /* AbstractBase_hpp */
+#endif /* List_hpp */

@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include <assert.h>
-#include "AbstractBase.hpp"
+#include "List.hpp"
 #include "LinearNode.hpp"
 
 template <class Type>
@@ -49,7 +49,7 @@ LinkedList<Type> :: LinkedList()
     this->size = 0;
 };
 
-template <class type>
+template <class Type>
 LinkedList<Type> :: ~LinkedList()
 {
     LinearNode<Type> * destroyStructure = front;
@@ -57,7 +57,7 @@ LinkedList<Type> :: ~LinkedList()
     {
         front = destroyStructure->getNextNode();
         delete destroyStructure;
-        destroyStructure = front
+        destroyStructure = front;
     }
 };
 
@@ -115,7 +115,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
 template <class Type>
 Type LinkedList<Type> :: getFromIndex(int index)
 {
-    assert(index >=0 && index < this.size);
+    assert(index >=0 && index < this->size);
     Type data;
     
     LinearNode<Type> * current = front;

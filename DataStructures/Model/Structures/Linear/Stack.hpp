@@ -63,4 +63,17 @@ void Stack<Type> :: push(Type data)
     this->size++;
 }
 
+template <class Type>
+void Stack<Type> :: add(Type data)
+{
+    push(data);
+}
+
+template <class Type>
+void Stack<Type> :: addAtIndex(int index, Type data)
+{
+    assert(index = 0);
+    push(data);
+}
+
 #endif /* Stack_hpp */

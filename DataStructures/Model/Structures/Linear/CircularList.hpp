@@ -129,4 +129,12 @@ void CircularList<Type> :: addAtIndex(int index, Type item)
     this->size++;
 }
 
+template <class Type>
+Type CircularList<Type> :: getFromIndex(int index)
+{
+    assert (index >=0 && index < this->size);
+    DoubleNode<Type> * holder = findNode(index);
+    return holder->getData();
+}
+
 #endif /* CircularList_hpp */

@@ -29,7 +29,7 @@ public:
     Type remove(int index);
     Type getFromIndex(int index);
     int getSize() const;
-}
+};
 
 template <class Type>
 CircularList<Type> :: CircularList()
@@ -39,6 +39,18 @@ CircularList<Type> :: CircularList()
     
     end->setPrevious(front);
     send->setNext(front);
+}
+
+template <class Type>
+CircularList<Type> :: ~CircularList()
+{
+    DoubleNode<Type> * current = front;
+    while (this->front != nullptr)
+    {
+        front = front->getNext();
+        delete current;
+        current - front;
+    }
 }
 
 #endif /* CircularList_hpp */

@@ -43,7 +43,7 @@ public:
         this->size = size;
         internalArray = new Type[size];
         
-    };
+    }
     
     template <class Type>
     Array<Type> :: Array(const Array <Type> & toCopy)

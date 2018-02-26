@@ -25,6 +25,6 @@ public:
     long getTimeInMicroseconds();
 };
 
-#include <stdio.h>
+
 
 #endif /* Timer_hpp */

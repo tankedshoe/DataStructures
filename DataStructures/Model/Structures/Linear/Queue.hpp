@@ -32,6 +32,21 @@ public:
     void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
+};
+
+template <class Type>
+Queue<Type> :: Queue() : LinkedList<Type>()
+{
+    //Empty since it is handled by the parent class constructor.
+}
+
+template <class Type>
+Queue<Type> :: Queue()
+{
+    for (LinearNode<Type> * removed = this->front; removed != nullptr; removed = this->front)
+    {
+        this->front = removed->getNextNode();
+        delete removed;
 }
 
 #endif /* Queue_hpp */

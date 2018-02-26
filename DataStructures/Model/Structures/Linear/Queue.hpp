@@ -47,6 +47,37 @@ Queue<Type> :: Queue()
     {
         this->front = removed->getNextNode();
         delete removed;
+    }
 }
 
+template <class Type>
+void Queue<Type> :: enqueue(Type item)
+{
+    LinearNode<Type> * added = new LinearNode<Type>(item)
+    
+    if (this-> size == 0)
+    {
+        this->front = added;
+    }
+    else
+    {
+        this->end->setNextNode(added);
+    }
+    
+    this->end = added;
+    this->size++;
+}
+
+template <class Type>
+void Queue<Type> :: addAtIndex(int index, Type item)
+{
+    assert(index == this->size - 1);
+    enqueue(item);
+}
+
+template <class Type>
+void Queue<Type> :: add(Type item)
+{
+    enqueue(item);
+}
 #endif /* Queue_hpp */

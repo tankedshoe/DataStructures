@@ -79,4 +79,22 @@ DoubleNode<Type> * CircularList<Type> :: findNode(int index)
     return nodeToFind;
 }
 
+template <class Type>
+void CircularList<Type> :: add(Type item)
+{
+    DoubleNode<Type> * addedNode;
+    if (this->size == 0)
+    {
+        addedNode = new DoubleNode<Type>(item);
+        this->front = addedNode;
+    }
+    else
+    {
+        addedNode = new DoubleNode<Type>(item, this->end, this->front);
+        this->send->setNext(addedNode);
+    }
+    this->end = addedNode;
+    this->size++;
+}
+
 #endif /* CircularList_hpp */

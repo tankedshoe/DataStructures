@@ -38,6 +38,30 @@ void TestingStacksAndQueues :: stackVersusList()
     listTimer.startTimer();
     value = numberList.getFromIndex(7);
     listTimer.stopTimer();
+    
+    cout << "The time it took to work with Stack" << endl;
+    stackTimer.displayInformation();
+    cout << "The time it took to work with List" << endl;
+    listTimer.displayInformation();
+    
+    cout << "What is left in the Stack" << endl;
+    //Here is how to cast as a parent type to get access to a method that is not defined in the subclass.
+    LinkedList<int> * listVersion = &numberStack;
+    int stackSize = listVersion->getSize();
+    cout << "Stack size is: " << stackSize << endl;
+    for (int index = 0; index < stackSize; index++)
+    {
+        cout << numberStack.pop() << endl;
+    }
+    
+    cout << "What is left in the List" << endl;
+    //Here is how to cast as a parent type to get access to a method that is not defined in the subclass.
+    int listSize = numberList.getSize();
+    cout << "List size is: " << listSize << endl;
+    for (int index = 0; index < listSize; index++)
+    {
+        cout << numberList.getFromIndex(index) << "\t";
+    }
 }
 
 void TestingStacksAndQueues :: stackVersusQueue()

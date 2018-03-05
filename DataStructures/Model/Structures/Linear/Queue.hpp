@@ -41,7 +41,7 @@ Queue<Type> :: Queue() : LinkedList<Type>()
 }
 
 template <class Type>
-Queue<Type> :: Queue()
+Queue<Type> :: ~Queue()
 {
     for (LinearNode<Type> * removed = this->front; removed != nullptr; removed = this->front)
     {

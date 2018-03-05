@@ -15,6 +15,7 @@
 		77764F17203F1DA00043F183 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77764F15203F1DA00043F183 /* LinkedListTester.cpp */; };
 		77D730FA20470DAC009ABDA9 /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77D730F820470DAC009ABDA9 /* TestingStacksAndQueues.cpp */; };
 		77E2CB21202A0023000CDC74 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77E2CB1F202A0023000CDC74 /* ArrayTester.cpp */; };
+		77EAE7A9204D8F3C00EA81A4 /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EAE7A7204D8F3C00EA81A4 /* RecursionTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +57,8 @@
 		77E2CB1F202A0023000CDC74 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		77E2CB20202A0023000CDC74 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		77E2CB24202A10E3000CDC74 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		77EAE7A7204D8F3C00EA81A4 /* RecursionTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTester.cpp; sourceTree = "<group>"; };
+		77EAE7A8204D8F3C00EA81A4 /* RecursionTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTester.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 				77764F16203F1DA00043F183 /* LinkedListTester.hpp */,
 				77D730F820470DAC009ABDA9 /* TestingStacksAndQueues.cpp */,
 				77D730F920470DAC009ABDA9 /* TestingStacksAndQueues.hpp */,
+				77EAE7A7204D8F3C00EA81A4 /* RecursionTester.cpp */,
+				77EAE7A8204D8F3C00EA81A4 /* RecursionTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77EAE7A9204D8F3C00EA81A4 /* RecursionTester.cpp in Sources */,
 				7763282C20220CD300D4A788 /* Runner.cpp in Sources */,
 				776328372022233500D4A788 /* CrimeData.cpp in Sources */,
 				7763282620220C9100D4A788 /* Controller.cpp in Sources */,

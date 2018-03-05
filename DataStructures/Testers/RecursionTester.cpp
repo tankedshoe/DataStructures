@@ -30,10 +30,35 @@ string RecursionTester :: mystery(string word)
 
 void RecursionTester :: testRecursionNumbers()
 {
-    
+    Timer recursionTimer;
+    cout << "testing fibonacci with 10" << endl;
+    recursionTimer.startTimer();
+    cout << fib(10) << endl;
+    recursionTimer.stopTimer();
+    recursionTimer.displayInformation();
 }
 
 void RecursionTester :: testRecursionString()
 {
     
 }
+
+string RecursionTester :: myOwnTest(string alpha)
+{
+    if (alpha.length() >= 10)
+    {
+        cout << alpha << endl;
+        return alpha;
+    }
+    else
+    {
+        cout << alpha << alpha.substr(0, 1) << endl;
+        return alpha + myOwnTest(alpha.substr(0, 1));
+    }
+}
+
+void RecursionTester :: testMyTest()
+{
+    myOwnTest("but");
+}
+

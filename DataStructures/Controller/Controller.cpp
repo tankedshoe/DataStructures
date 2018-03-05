@@ -12,7 +12,21 @@ using namespace std;
 
 void Controller :: start()
 {
-    ArrayTester myTest;
-    myTest.testArrayUse();
-    myTest.testAdvancedArray();
+    RecursionTester test;
+    test.testMyTest();
+}
+
+void Controller :: testStacksAndQueues()
+{
+    
+}
+
+void Controller :: findMaxAndMin()
+{
+    
+}
+
+void Controller :: testArray()
+{
+    
 }

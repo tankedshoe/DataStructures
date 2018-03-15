@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		774DB23A205AB3B50003551E /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 774DB238205AB3B50003551E /* SortingTester.cpp */; };
 		7763282620220C9100D4A788 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282420220C9100D4A788 /* Controller.cpp */; };
 		7763282920220CA800D4A788 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282720220CA800D4A788 /* FileController.cpp */; };
 		7763282C20220CD300D4A788 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282B20220CD300D4A788 /* Runner.cpp */; };
@@ -33,6 +34,8 @@
 /* Begin PBXFileReference section */
 		7730800E203C6F9E00A9CC25 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		77308011203C728800A9CC25 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		774DB238205AB3B50003551E /* SortingTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTester.cpp; sourceTree = "<group>"; };
+		774DB239205AB3B50003551E /* SortingTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortingTester.hpp; sourceTree = "<group>"; };
 		7763281920220C5700D4A788 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		7763282420220C9100D4A788 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		7763282520220C9100D4A788 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				77D730F920470DAC009ABDA9 /* TestingStacksAndQueues.hpp */,
 				77EAE7A7204D8F3C00EA81A4 /* RecursionTester.cpp */,
 				77EAE7A8204D8F3C00EA81A4 /* RecursionTester.hpp */,
+				774DB238205AB3B50003551E /* SortingTester.cpp */,
+				774DB239205AB3B50003551E /* SortingTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				776328372022233500D4A788 /* CrimeData.cpp in Sources */,
 				7763282620220C9100D4A788 /* Controller.cpp in Sources */,
 				7763282920220CA800D4A788 /* FileController.cpp in Sources */,
+				774DB23A205AB3B50003551E /* SortingTester.cpp in Sources */,
 				77E2CB21202A0023000CDC74 /* ArrayTester.cpp in Sources */,
 				77D730FA20470DAC009ABDA9 /* TestingStacksAndQueues.cpp in Sources */,
 				7763282F20220FA800D4A788 /* Timer.cpp in Sources */,

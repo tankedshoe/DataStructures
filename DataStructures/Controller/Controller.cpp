@@ -7,13 +7,14 @@
 //
 
 #include "Controller.hpp"
+#include "../Testers/SortingTester.hpp"
 
 using namespace std;
 
 void Controller :: start()
 {
-    RecursionTester test;
-    test.testMyTest();
+    SortingTester my;
+    my.testSorts();
 }
 
 void Controller :: testStacksAndQueues()

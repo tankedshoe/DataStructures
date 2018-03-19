@@ -148,5 +148,31 @@ void Graph<Type> :: addEdgeUndirected(int source, int target)
     adjacencyMatrix[target][source] = true;
 }
 
+template <class Type>
+bool Graph<Type> :: hasUndirectedConnection(int source, int target) const
+{
+    assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
+    
+    bool isAnEdge = false;
+    isAnEdge = adjacencyMatrix[source][target] || adjacencyMatrix[target][source];
+    
+    return isAnEdge;
+}
+
+template <class Type>
+std::set<int> Graph<Type> :: neighbors(int vertex) const
+{
+    assert(vertex < vertexCount);
+    std::set<int> vertexNeighbors;
+    
+    for(int index = 0; index < vertexCount; index++)
+    {
+        if(adjacencyMatrix[vertex][index])
+        {
+            vertexNeighbors.insert(index);
+        }
+    }
+    return vertexNeighbors;
+}
 
 #endif /* Graph_hpp */

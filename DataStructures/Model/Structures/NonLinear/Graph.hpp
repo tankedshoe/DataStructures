@@ -26,6 +26,7 @@ private:
     Type graphData[MAXIMUM];
     int vertexCount;
     void depthFirstTraversal(Graph<Type> & graph, int vertex, bool markedVertices[]);
+    
 public:
     Graph();
     //Graph operations

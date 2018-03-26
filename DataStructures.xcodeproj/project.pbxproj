@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77223C4020653FB700B8A945 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77223C3E20653FB700B8A945 /* GraphTester.cpp */; };
 		774DB23A205AB3B50003551E /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 774DB238205AB3B50003551E /* SortingTester.cpp */; };
 		7763282620220C9100D4A788 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282420220C9100D4A788 /* Controller.cpp */; };
 		7763282920220CA800D4A788 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282720220CA800D4A788 /* FileController.cpp */; };
@@ -32,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		77223C3E20653FB700B8A945 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
+		77223C3F20653FB700B8A945 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		7730800E203C6F9E00A9CC25 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		77308011203C728800A9CC25 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		774DB238205AB3B50003551E /* SortingTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTester.cpp; sourceTree = "<group>"; };
@@ -187,6 +190,8 @@
 				77EAE7A8204D8F3C00EA81A4 /* RecursionTester.hpp */,
 				774DB238205AB3B50003551E /* SortingTester.cpp */,
 				774DB239205AB3B50003551E /* SortingTester.hpp */,
+				77223C3E20653FB700B8A945 /* GraphTester.cpp */,
+				77223C3F20653FB700B8A945 /* GraphTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 				776328372022233500D4A788 /* CrimeData.cpp in Sources */,
 				7763282620220C9100D4A788 /* Controller.cpp in Sources */,
 				7763282920220CA800D4A788 /* FileController.cpp in Sources */,
+				77223C4020653FB700B8A945 /* GraphTester.cpp in Sources */,
 				774DB23A205AB3B50003551E /* SortingTester.cpp in Sources */,
 				77E2CB21202A0023000CDC74 /* ArrayTester.cpp in Sources */,
 				77D730FA20470DAC009ABDA9 /* TestingStacksAndQueues.cpp in Sources */,

@@ -15,6 +15,7 @@
 		7763282F20220FA800D4A788 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7763282D20220FA800D4A788 /* Timer.cpp */; };
 		776328372022233500D4A788 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 776328362022233500D4A788 /* CrimeData.cpp */; };
 		77764F17203F1DA00043F183 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77764F15203F1DA00043F183 /* LinkedListTester.cpp */; };
+		77CC9528207BAE1000887CD6 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77CC9526207BAE1000887CD6 /* BinaryTreeTester.cpp */; };
 		77D730FA20470DAC009ABDA9 /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77D730F820470DAC009ABDA9 /* TestingStacksAndQueues.cpp */; };
 		77E2CB21202A0023000CDC74 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77E2CB1F202A0023000CDC74 /* ArrayTester.cpp */; };
 		77EAE7A9204D8F3C00EA81A4 /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EAE7A7204D8F3C00EA81A4 /* RecursionTester.cpp */; };
@@ -58,7 +59,11 @@
 		77764F23203F28520043F183 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		77846022202CB2ED00FB61FC /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		77A39F82206A8C8900B67187 /* BinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
+		77A39F85206A9F4C00B67187 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
 		77C22C022060021000DD6045 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		77CC9524207BADA100887CD6 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
+		77CC9526207BAE1000887CD6 /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		77CC9527207BAE1000887CD6 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 		77D730F820470DAC009ABDA9 /* TestingStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestingStacksAndQueues.cpp; sourceTree = "<group>"; };
 		77D730F920470DAC009ABDA9 /* TestingStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestingStacksAndQueues.hpp; sourceTree = "<group>"; };
 		77E2CB1C2029F80A000CDC74 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
@@ -155,8 +160,10 @@
 		77764F21203F282F0043F183 /* NonLinear */ = {
 			isa = PBXGroup;
 			children = (
-				77C22C022060021000DD6045 /* Graph.hpp */,
 				77A39F82206A8C8900B67187 /* BinaryTree.hpp */,
+				77C22C022060021000DD6045 /* Graph.hpp */,
+				77A39F85206A9F4C00B67187 /* Tree.hpp */,
+				77CC9524207BADA100887CD6 /* BinarySearchTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -194,6 +201,8 @@
 				774DB239205AB3B50003551E /* SortingTester.hpp */,
 				77223C3E20653FB700B8A945 /* GraphTester.cpp */,
 				77223C3F20653FB700B8A945 /* GraphTester.hpp */,
+				77CC9526207BAE1000887CD6 /* BinaryTreeTester.cpp */,
+				77CC9527207BAE1000887CD6 /* BinaryTreeTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -270,6 +279,7 @@
 				776328372022233500D4A788 /* CrimeData.cpp in Sources */,
 				7763282620220C9100D4A788 /* Controller.cpp in Sources */,
 				7763282920220CA800D4A788 /* FileController.cpp in Sources */,
+				77CC9528207BAE1000887CD6 /* BinaryTreeTester.cpp in Sources */,
 				77223C4020653FB700B8A945 /* GraphTester.cpp in Sources */,
 				774DB23A205AB3B50003551E /* SortingTester.cpp in Sources */,
 				77E2CB21202A0023000CDC74 /* ArrayTester.cpp in Sources */,

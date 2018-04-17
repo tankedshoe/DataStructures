@@ -9,8 +9,8 @@
 #ifndef BinaryTree_hpp
 #define BinaryTree_hpp
 
-#include <assert>
-#include "../Model/Nodes/Node.hpp"
+#include <assert.h>
+#include "../../Structures/NonLinear/BinaryTree.hpp"
 
 template <class Type>
 class BinaryTree

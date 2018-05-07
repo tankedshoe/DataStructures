@@ -53,6 +53,30 @@ Hashtable<Type> :: ~Hashtable()
 }
 
 template <class Type>
+HashNode<Type> * HashTable<Type> :: get(long index)
+{
+    assert(index < capacity);
+    return internalStorage[index];
+}
+
+template <class Type>
+bool HashTable<Type> :: contains(Hashode<Type> * value)
+{
+    if(internalStorage[findPosition(value)]->getData() == value->getData())
+    {
+        return true;
+    }
+    
+    long other = handleCollision(findPosition(value));
+    if (internalStorage[other]->getData() == value->getData())
+    {
+        return true;
+    }
+    
+    return false;
+}
+
+template <class Type>
 long Hashtable<Type> :: handleCollision(long currentPosition)
 {
     long shift = 17;
